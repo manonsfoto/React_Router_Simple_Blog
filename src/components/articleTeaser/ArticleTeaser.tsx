@@ -9,11 +9,14 @@ interface Props {
 const ArticleTeaser: React.FC<Props> = ({ imgUrl, title, id }) => {
   return (
     <article className="card">
-      <img src={imgUrl} alt={title} />
+      <div className="img-box">
+        {" "}
+        <img src={imgUrl} alt={title} />
+      </div>
       <p className="card-title">{title}</p>
       <Link to={`details/${id}`}>
         {" "}
-        <Button />
+        <Button text={"Read More"} />
       </Link>
     </article>
   );

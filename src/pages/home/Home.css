@@ -1,4 +1,12 @@
 .headline {
   font-size: 3.2rem;
-  /* font-family: "Roboto-Black"; */
+  line-height: 150%;
+  margin-bottom: 2.4rem;
+}
+.main-textBox {
+  padding: 0 16rem 17.5rem 16rem;
+}
+.stn-mainImage {
+  position: relative;
+  bottom: 10rem;
 }

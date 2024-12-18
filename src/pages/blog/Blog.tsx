@@ -1,10 +1,11 @@
 import ArticleTeaser from "../../components/articleTeaser/ArticleTeaser";
 import { blogData } from "../../../blogData";
 import IBlogData from "../../interface/IBlogData";
+import "./Blog.css";
 
 const Blog = () => {
   return (
-    <section className="list-wrapper flex">
+    <section className="stn-BlogList flex">
       {blogData.map((singleBlog: IBlogData) => (
         <ArticleTeaser
           key={singleBlog.id}

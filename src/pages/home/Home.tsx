@@ -8,10 +8,13 @@ const Home = () => {
       <section className="stn-mainImage">
         <img src={imgHome} alt="blog image" />
       </section>
-      <section>
-        <h1 className="headline">Welcome to my simple Blog</h1>
+      <section className="main-textBox">
+        <h1 className="headline">
+          Welcome to my
+          <br /> simple Blog
+        </h1>
         <Link to={"/blog"}>
-          <Button />{" "}
+          <Button text={"Go to articles"} />{" "}
         </Link>
       </section>
     </>
